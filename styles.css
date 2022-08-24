@@ -1,0 +1,141 @@
+html{
+    padding:0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+/*MAIN CONTAINER*/
+.mainContainer{
+    display: flex;  
+    flex-direction: column;     
+    
+}
+.item{
+    padding: 10px;
+    margin: 1px;
+    flex: 1 1 50%;
+    height: 50%;
+}
+.item1{
+    background-color: #1f2937;
+}
+.item2{
+
+}
+.item3{
+
+}
+/*HEADER CONTAINER*/
+.headerContainer{
+    text-align: center; 
+    display: flex;
+    padding-top: 5px;
+    justify-content: baseline;
+}
+/*HEADER LOGO CONTAINER*/
+.headerLogoContainer{
+    display: flex;
+    flex: 1;
+}
+.headerLogoItem{
+    font-size: 24px;
+    color: #F9FAF8;
+
+    flex: 1;
+    padding-left: 175px;
+    padding-right: 175px;
+}
+/*HEADER LINK CONTAINER*/
+.headerLinkContainer{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.headerLinkItem{   
+    font-size: 18px;
+    color: #E5E7EB; 
+
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+/*descriptionContainer*/
+.descriptionContainer{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.descriptionItem{
+    margin: 40px 40px 40px 0px;
+    min-width: auto;
+}
+.descriptionItem div{
+    font-size: 48px;
+    color: #F9FAF8;
+    text-align: start;
+    font-weight: bolder;
+    margin-bottom: 0px;;   
+}
+.descriptionItem p{
+    text-align: start;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+.descriptionItem button{
+    background-color: #3882f6;
+    border: 0;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.descriptionItem.image{
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 0px 125px;
+    
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: grey;
+
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    border: #1f2937;
+}
+.randomInformation{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 20px 0px;
+}
+/*INFORMATION CONTAINER*/
+.informationContainer{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.informationItem{
+    margin: 20px;
+    max-width: 100px;
+}
+.information.image{
+    border: solid 3px;
+    color: #3882F6;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.information.caption{
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
