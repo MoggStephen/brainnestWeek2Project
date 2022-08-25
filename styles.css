@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+*{
+    font-family: "Roboto";
+}
 html{
     padding:0;
     margin: 0;
@@ -25,7 +32,7 @@ body{
 
 }
 .item3{
-
+    background-color: #e5e7eb;
 }
 /*HEADER CONTAINER*/
 .headerContainer{
@@ -61,7 +68,7 @@ body{
     padding-right: 10px;
     text-decoration: none;
 }
-/*descriptionContainer*/
+/*DESCRIPTION CONTAINER*/
 .descriptionContainer{
     display: flex;
     height: auto;
@@ -124,18 +131,46 @@ body{
     margin-bottom: 20px;
 }
 .informationItem{
-    margin: 20px;
-    max-width: 100px;
+    margin: 25px;
+    max-width: 110px;
 }
 .information.image{
     border: solid 3px;
     color: #3882F6;
     border-radius: 10px;
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
 }
 .information.caption{
     font-size: 12px;
     color: grey;
     text-align: center;
+}
+/*QUOTE CONTAINER*/
+.quoteContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+.quoteItem{
+    padding: 20px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
+    width: 700px;
+}
+.quoteItem1{
+    text-align: start;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    font-style: italic;
+}
+.quoteItem2{
+    text-align: end;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: bold;
 }
